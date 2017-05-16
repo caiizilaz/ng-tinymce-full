@@ -1,0 +1,3 @@
+<app-tinymce [(ngModel)]='content'></app-tinymce>
+
+<div contenteditable=false [innerHTML]="content | safeHtml"></div>
